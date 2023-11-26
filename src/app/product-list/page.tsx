@@ -74,7 +74,7 @@ export default function UsersPage() {
       </div>
 
       <div className="mt-8 text-center">
-        <ul className="flex justify-center"> {/* Added flex and justify-center */}
+        <ul className="flex justify-center"> 
           {Array.from({
             length: Math.ceil(filteredProducts.length / productsPerPage),
           }).map((_, index) => (

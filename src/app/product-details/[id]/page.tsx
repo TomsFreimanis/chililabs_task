@@ -2,14 +2,14 @@
 import { useEffect, useState } from "react";
 import getProduct from "@/lib/getProduct";
 import Link from "next/link";
-// Type for the dynamic route params
+
 type Params = {
   params: {
     id: string;
   };
 };
 
-// Component to display product details
+
 export default function ProductPage({ params: { id } }: Params) {
   const [product, setProduct] = useState<Product | null>(null);
 
@@ -60,7 +60,7 @@ export default function ProductPage({ params: { id } }: Params) {
         </div>
       )}
 
-      {/* Footer with link to go back to product list */}
+     
       <div className="mt-8 text-center text-gray-600">
         <p>
           <Link className="underline text-green-600 font-bold" href="/product-list">
