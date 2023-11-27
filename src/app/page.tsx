@@ -1,4 +1,4 @@
-// Correct usage with Tailwind CSS
+
 import React from "react";
 import Link from "next/link";
 
