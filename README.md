@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Tasks
 
-## Getting Started
+## Completed Tasks
 
-First, run the development server:
+- [x] **Set Up Project:**
+  - Initialized a new Next js project using TypeScript.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [x] **Fetch Products:**
+  - Used the provided API endpoint (`https://run.mocky.io/v3/b54fe93f-f5a1-426b-a76c-e43d246901fd`) to fetch the list of products.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [x] **Basic Home Page:**
+  - Created a welcoming home page featuring a clean design.
+  - Implemented a prominent button that serves as a gateway to the product list, encouraging user interaction.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [x] **Product List Page:**
+  - Created a page that displays the list of products.
+  - Implemented a search input that filters products without refreshing the page.
+  - Used React state to manage the list of products and the search input.
+  - Implemented automatic search once the user stops typing (used `debounce` for this).
 
-## Learn More
+- [x] **Product Details Page:**
+  - Created a separate page for displaying detailed information about a product.
+  - Displayed the product name, price, category, and description.
+  - Linked each product on the list page to its corresponding details page.
 
-To learn more about Next.js, take a look at the following resources:
+- [x] **Responsive Design:**
+  - Ensured that both the product list page and the product details page have responsive designs.
+  - Tested the pages on both desktop and mobile devices to ensure they look good on different screen sizes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] **Styling:**
+  - Implemented styles for components.
+  - Used tailwindcss for styling.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [x]  **Pagination:**
+  - Implement pagination for the product list page.
 
-## Deploy on Vercel
+- [x]  **Bonus Points:**
+  - Implement the project using Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [x] **Unit Tests:**
+  - Embarked on the journey of writing unit tests for the first time.
+  - Acknowledge the need for further exploration and improvement in unit testing using `@testing-library/react`.
+  - Eager to learn more about testing practices to enhance code reliability and maintainability.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Project Requirements
+
+- **Project Language:** TypeScript and React.js
+- **Responsive Designs:** All pages should look good on both desktop and mobile.
+- **Bonus Points:**
+  - For styling, i use the "tailwindcss".
+  - Implement the project using Next.js.
+  - Implement pagination.
+  - Write unit tests with `@testing-library/react`.
+
+---
+
+# Live Version
+
+Check out the live version of the project [here](https://poetic-lolly-48ddd9.netlify.app/).
