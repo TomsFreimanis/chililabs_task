@@ -32,28 +32,15 @@
   - Implemented styles for components.
   - Used tailwindcss for styling.
 
-- [x]  **Pagination:**
+- [x]  ***Bonus Points:***
+  - Used tailwindcss for styling.
+  - Implement the project using Next.js.
   - Implement pagination for the product list page.
 
-- [x]  **Bonus Points:**
-  - Implement the project using Next.js.
-
-- [x] **Unit Tests:**
+- [] **Unit Tests:**
   - Embarked on the journey of writing unit tests for the first time.
   - Acknowledge the need for further exploration and improvement in unit testing using `@testing-library/react`.
   - Eager to learn more about testing practices to enhance code reliability and maintainability.
----
-
-# Project Requirements
-
-- **Project Language:** TypeScript and React.js
-- **Responsive Designs:** All pages should look good on both desktop and mobile.
-- **Bonus Points:**
-  - For styling, i use the "tailwindcss".
-  - Implement the project using Next.js.
-  - Implement pagination.
-  - Write unit tests with `@testing-library/react`.
-
 ---
 
 # Live Version
