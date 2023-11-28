@@ -37,10 +37,12 @@ export default function ProductPage({ params: { id } }: Params) {
     <div className="max-w-2xl mx-auto mt-8 p-4 md:p-8 border-2 bg-gradient-to-l from-slate-100 to-slate-100 text-slate-600 rounded shadow hover:shadow-lg">
       {product ? (
         <div>
-          <h2 className="text-4xl font-bold mb-3 text-center text-green-500 ">
+          <h2 className="text-4xl font-bold  text-center text-green-500 ">
             {product.name}
           </h2>
-
+          <p className="text-gray-600 text-center text-lg p-2">
+            {product.description}
+          </p>
           <p className="text-xl mb-2 text-center text-green-600">
             <span className="font-bold text-gray-600">Category:</span>{" "}
             {product.category}
@@ -52,15 +54,6 @@ export default function ProductPage({ params: { id } }: Params) {
         </div>
       ) : (
         <p className="text-gray-600 text-center">Loading...</p>
-      )}
-
-      {product && (
-        <div className="mt-8">
-          <h3 className="text-3xl font-semibold mb-3 text-center text-gray-950">
-            Product Description
-          </h3>
-          <p className="text-gray-600 text-center text-xl">{product.description}</p>
-        </div>
       )}
 
       <div className="mt-8 text-center text-gray-600">
