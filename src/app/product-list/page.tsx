@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import getAllProducts from "../../../lib/getAllProducts";
+import getAllProducts from "@lib/getAllProducts";
 import Link from "next/link";
 import Skeleton from 'react-loading-skeleton';
 

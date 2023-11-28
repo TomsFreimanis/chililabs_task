@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import getProduct from "../../../../lib/getProduct";
+import getProduct from "@lib/getProduct";
 import Link from "next/link";
 
 type Params = {
