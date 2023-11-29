@@ -43,6 +43,23 @@
   - Eager to learn more about testing practices to enhance code reliability and maintainability.
 ---
 
+# Resources and Acknowledgments
+
+During the development of this project, I utilized various resources that significantly contributed to its success. I would like to acknowledge and thank the following:
+
+- **Styling Inspiration:**
+  - Incorporated styling concepts from [UIVerse](https://uiverse.io/) for a visually appealing design.
+
+- **Testing Learning Material:**
+  - Gained valuable insights into unit testing with `@testing-library/react` through the tutorial [here](https://www.youtube.com/watch?v=AS79oJ3Fcf0).
+
+- **General Knowledge and Guidance:**
+  - Leveraged the vast resources available on [Google](https://www.google.com/) for problem-solving and learning.
+
+- **Chat Support:**
+  - Utilized the assistance of [ChatGPT](https://www.openai.com/) for guidance and suggestions.
+
+---
 # Live Version
 
 Check out the live version of the project [here](https://poetic-lolly-48ddd9.netlify.app/).

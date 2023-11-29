@@ -8,14 +8,14 @@ jest.mock("@lib/getAllProducts");
 
 const mockedProducts: Product[] = [
   {
-    id: "1",
+    id: 1,
     name: "Product 1",
     category: "Category A",
     price: 10,
     currency: "USD",
   },
   {
-    id: "2",
+    id:2,
     name: "Product 2",
     category: "Category B",
     price: 20,
